@@ -53,8 +53,8 @@ public:
 
     Fraction operator*(const Fraction& other) const 
     {
-        return Fraction(numerator * other.numerator,denominator * other.denominator);// да да да я использовал оператор "," и да я знаю что такое запятая .  
-    }                                                                                       /*А нужна для работы с несколькими выражениями*/
+        return Fraction(numerator * other.numerator,denominator * other.denominator);
+    }                                                                                       
 
     // это равбота с целыми числами
     Fraction operator+(int whole) const 
